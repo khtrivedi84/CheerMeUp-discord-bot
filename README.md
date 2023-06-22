@@ -33,4 +33,4 @@ Install discord.js and openai by running following commands in your terminal:
 
 ### Setting up keys/tokens
 
-``` 
+Open .env file and setup your OpenAI API Key and organization ID, Bot Token from discord, and Channel id of the channel to which the program should send buttons, text, and AI generated images.
