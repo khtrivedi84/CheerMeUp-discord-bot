@@ -106,7 +106,7 @@ const handleInteraction = async (interaction) => {
 
   const finalResult = result.split(keyword);
 
-  const channel = client.channels.cache.get('1108311184953835521');
+  const channel = client.channels.cache.get(process.env.CHANNEL_ID);
 
   let motivation_text = finalResult[0];
   let image_prompt = `${finalResult[1]}, hyperrealistic, 4K`;
@@ -143,7 +143,7 @@ client.on("ready", () => {
   // Schedule mood prompts every 2 minutes
   setInterval(() => {
     console.log('Sending mood options');
-    const channel = client.channels.cache.get('1108311184953835521'); // Replace with the actual channel ID where you want the bot to send the mood prompts
+    const channel = client.channels.cache.get(process.env.CHANNEL_ID); // Replace with the actual channel ID where you want the bot to send the mood prompts
       sendMoodOptions(channel);
   }, 1 * 20 * 1000); // 2 minutes in milliseconds 1000 kam kar
 });
