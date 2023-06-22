@@ -57,8 +57,8 @@ Sample image 2
 
 Sample image 3
 
-![App Screenshot](https://imgur.com/0Yw3a80)
+![App Screenshot](https://i.imgur.com/0Yw3a80.png)
 
 Sample image 4
 
-![App Screenshot](https://imgur.com/xpndHcB)
+![App Screenshot](https://i.imgur.com/xpndHcB.png)
