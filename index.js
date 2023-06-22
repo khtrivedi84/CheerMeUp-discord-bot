@@ -4,7 +4,7 @@ const { Client, GatewayIntentBits, ActionRowBuilder, ButtonBuilder, InteractionR
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
-  organization:"org-3qgRCPAZSU5qxHftWB8oGtfl",
+  organization: process.env.ORGANIZATION_ID,
   apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
