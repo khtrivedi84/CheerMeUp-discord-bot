@@ -16,5 +16,9 @@ Intelligent Prompt Generation: The prompt for the DALL-E API is also generated b
 
 ## Getting Started
 
-To use CheerMeUp on your Discord server, follow these steps:
+### Installation
 
+Install the required dependencies by running the following command:
+```bash
+  git clone https://github.com/kishan12345/discord-bot.git
+```
