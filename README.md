@@ -18,7 +18,19 @@ Intelligent Prompt Generation: The prompt for the DALL-E API is also generated b
 
 ### Installation
 
-Install the required dependencies by running the following command:
+Clone or download the repository to your local machine.
+
 ```bash
   git clone https://github.com/kishan12345/discord-bot.git
 ```
+
+Install discord.js and openai by running following commands in your terminal:
+
+```bash
+  npm install discord.js
+  npm install openai
+```
+
+### Setting up keys/tokens
+
+``` 
