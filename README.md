@@ -1,6 +1,3 @@
-# discord-bot
-
-
 # CheerMeUp Discord Bot
 
 CheerMeUp is a discord bot that will ask you your mood every 2 hours (Can be changed as needed).
