@@ -47,3 +47,18 @@ Once the program is running, it will send 5 mood options to the discord channel.
 
 ## Sample Outputs
 
+Sample image 1
+
+![App Screenshot](https://i.imgur.com/vKP6IRv.png)
+
+Sample image 2
+
+![App Screenshot](https://i.imgur.com/ixuIXO7.png)
+
+Sample image 3
+
+![App Screenshot](https://imgur.com/0Yw3a80)
+
+Sample image 4
+
+![App Screenshot](https://imgur.com/xpndHcB)
